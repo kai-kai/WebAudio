@@ -1,0 +1,26 @@
+</script>
+<!DOCTYPE html>
+<html lang="js">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style type="text/css">
+    body {
+      background-color: #000;
+    }
+  </style>
+</head>
+<body>
+
+<button id="playsound" disabled>Play</button><br/>
+<div id="particles-js"></div>
+
+<script src="particles.js"></script>
+<script>
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'particles.json', function() {
+console.log('callback - particles.js config loaded');
+});
+</script>
+</body>
+</html>
